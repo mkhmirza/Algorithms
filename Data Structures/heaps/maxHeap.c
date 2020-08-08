@@ -70,7 +70,7 @@ int extractMax(int heap[], int n, int* heapSize)
     // first element will be the maximum
     int maxElement = heap[0];
     // replace first element with last element
-    heap[0] = heap[n - 1];
+    heap[0] = heap[*heapSize - 1];
     
     // decreasing heap size as element is extracted 
     *heapSize = *heapSize - 1;
@@ -92,6 +92,7 @@ void addElement(int data[], int n, int value, int* heapSize)
 int peekMax(int heap[], int heapSize)
 {
     if (heapSize < 0){
+
         return -1;
     }
 
