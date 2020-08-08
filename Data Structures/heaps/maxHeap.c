@@ -79,6 +79,15 @@ int extractMax(int heap[], int n, int* heapSize)
     return maxElement;
 }
 
+// add new value in the heap
+void addElement(int data[], int n, int value, int* heapSize)
+{
+    // increase the size of heap 
+    *heapSize = *heapSize + 1;
+    data[n - 1] = value;
+    maxHeapify(data, n - 1, n);
+}
+
 // returns the first element as maximum element 
 int peekMax(int heap[], int heapSize)
 {
