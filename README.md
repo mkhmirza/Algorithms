@@ -16,7 +16,7 @@ Different Artificial Intellligence, Data Structures Algorthims Using different p
 3) **mainMaxHeap.c**: Program demostration for Max Binary Heap
 4) **minHeap.c**: Implementation of Min Binary Heap operations 
 5) **minHeap.h**: Header file for Min Binary Heap operations
-6) **mainMinHeap.c**: Program demostration for Min Binary Heap
+6) **mainMinHeap.c**: Program demostration for Max Binary Heap
 ### sorting/
 --------- 
 ### graph/ 
