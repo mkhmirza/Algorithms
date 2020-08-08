@@ -1,5 +1,7 @@
 #!/usr/bin/python env
 
+# program for sorting data using counting sort
+
 a = [1 , 2, 4, 5, 6, 0, 2]
 k = max(a)
 c = [0 for x in range(k+1)]
