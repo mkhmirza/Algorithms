@@ -4,11 +4,6 @@ Different Artificial Intellligence, Data Structures Algorthims Using different p
 ## Data Structures/
 ### heaps/
 **header/**
-header files for Binary heap (*maxHeap*, *minHeap*)
+header files for Binary heap (*maxHeap*, *minHeap*) \\ 
 **source/**
 source files for Binary heap (*maxHeap*, *minHeap*)
-
-### sorting/
---------- 
-### graph/ 
----------
