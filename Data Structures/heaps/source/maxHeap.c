@@ -98,6 +98,22 @@ int getParentMax(int i)
     return (i / 2) - 1;
 }
 
+// increases value of index of heap with a new value 
+void increaseKey(int heap[], int index, int newValue)
+{
+    if (newValue < heap[index]){
+        return;
+    }
+    
+    heap[index] = newValue;
+    // rearrainging the elements to hold max heap property 
+    // sort data using insertion sort 
+    while ((index  > 1) && (heap[getParentMax(index)] < heap[index])){
+        int temp = heap[index];
+        heap[index] = heap[getParentMax(index)];
+        heap[getParentMax(index)] = temp;
+        index = getParentMax(index);
+    } 
 
-
+}
 
