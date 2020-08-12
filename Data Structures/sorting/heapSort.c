@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "../heaps/maxHeap.h"
-#include "../heaps/minHeap.h"
+#include "../heaps/header/maxHeap.h"
+#include "../heaps/header/minHeap.h"
 
 void heapSortAscending(int data[], int n);
 void heapSortDescending(int data[], int n);
