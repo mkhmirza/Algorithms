@@ -1,5 +1,5 @@
 # Algorithms
-Different Artificial Intellligence, Data Structures Algorthims Using different programming languages
+Different Artificial Intellligence, Data Structures Algorthims Using different programming languages.
 
 ## Data Structures/
 ### heaps/
