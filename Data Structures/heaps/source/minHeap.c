@@ -95,3 +95,26 @@ int getParentMin(int i)
     return (i / 2) - 1;
 }
 
+
+int decreaseKey(int heap[], int index, int newValue)
+{
+    // new value must be smaller or equal to the the current value 
+    if (newValue > heap[index]){
+        // invalid value 
+        return -1;
+    }
+
+    // change value of index to new value
+    heap[index] = newValue;
+    // rearrainging the elements to hold mix heap property 
+    // sort data using insertion sort 
+    while ((index  > 1) && (heap[getParentMin(index)] > heap[index])){
+        int temp = heap[index];
+        heap[index] = heap[getParentMin(index)];
+        heap[getParentMin(index)] = temp;
+        index = getParentMin(index);
+    }
+
+    // decrease value was successful
+    return 1; 
+}
