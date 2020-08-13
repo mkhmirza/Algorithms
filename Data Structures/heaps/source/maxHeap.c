@@ -99,10 +99,12 @@ int getParentMax(int i)
 }
 
 // increases value of index of heap with a new value 
-void increaseKey(int heap[], int index, int newValue)
+int increaseKey(int heap[], int index, int newValue)
 {
+    // new value must be greater than he current value
     if (newValue < heap[index]){
-        return;
+        // invalid value
+        return -1;
     }
     
     heap[index] = newValue;
@@ -115,5 +117,7 @@ void increaseKey(int heap[], int index, int newValue)
         index = getParentMax(index);
     } 
 
+    // increase value was success 
+    return 1;
 }
 
