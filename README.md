@@ -6,4 +6,4 @@ Different Artificial Intellligence, Data Structures Algorthims Using different p
 **header/**\
 header files for Binary heap (maxHeap, minHeap)\
 **source/**\
-source files for Binary heap (maxHeap, minHeap)\
+source files for Binary heap (maxHeap, minHeap)
