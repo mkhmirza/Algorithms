@@ -1,0 +1,13 @@
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst.deps.json
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst.runtimeconfig.json
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst.runtimeconfig.dev.json
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst.dll
+/home/kumail/Desktop/projects/c#/bst/bin/Debug/netcoreapp3.1/bst.pdb
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.csprojAssemblyReference.cache
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.AssemblyInfoInputs.cache
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.AssemblyInfo.cs
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.csproj.CoreCompileInputs.cache
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.dll
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.pdb
+/home/kumail/Desktop/projects/c#/bst/obj/Debug/netcoreapp3.1/bst.genruntimeconfig.cache

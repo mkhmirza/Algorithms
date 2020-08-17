@@ -3,7 +3,11 @@ Different Artificial Intellligence, Data Structures Algorthims Using different p
 
 ## Data Structures/
 ### heaps/
-**header/**\
-header files for Binary heap (maxHeap, minHeap)\
-**source/**\
-source files for Binary heap (maxHeap, minHeap)
+Implementation of different heap data structures.
+### sorting/ 
+Implementation of different sorting algorithms. 
+### trees/
+Implementation of different tree data structures and algorithms.
+### graph/
+Implemenation of different graph data structures and algorithms. 
+ 
