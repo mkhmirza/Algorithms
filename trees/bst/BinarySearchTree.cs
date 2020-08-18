@@ -65,7 +65,41 @@ namespace  bst
             InOrder(this.root);
         }
 
+        public Node Find(int value)
+        {
+            Node node = this.root;
+            while ((node != null) && value != node.Key ){
+                if (value < node.Key){
+                    node = node.Left;
+                } else {
+                    node = node.Right;
+                }
+            }   
+
+            return node;
+        }
+
+
+        public bool IsLeft(int value)
+        {
+            Node node = Find(value);
+            if (node != null && node.Parent.Key > value){
+                return true;
+            } else {
+                return false;
+            }
+        }
         
+        public bool IsRight(int value)
+        {
+            Node node = Find(value);
+            if (node != null && node.Parent.Key < value){
+                return true;
+            } else {
+                return false;
+            }
+        }
+
         private void InOrder(Node node)
         {
             if(node != null){
