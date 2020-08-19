@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "../header/minHeap.h"
+#include "minHeap.h"
 
 // program to demostrate working of Min heap 
 

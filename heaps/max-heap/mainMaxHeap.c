@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "../header/maxHeap.h"
+#include "maxHeap.h"
 
 // program to demostrate working of max heap 
 

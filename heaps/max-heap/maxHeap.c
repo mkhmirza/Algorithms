@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "../header/maxHeap.h"
+#include "maxHeap.h"
 
 
 // data is the array being heapify, 

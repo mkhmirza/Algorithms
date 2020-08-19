@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "../header/minHeap.h"
+#include "minHeap.h"
 
 
 // data is the array being heapify, 
