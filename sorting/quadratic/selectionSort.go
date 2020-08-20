@@ -2,18 +2,18 @@ package main
 
 // import "fmt"
 
-func selectionSort(array []int) []int{
+func selectionSort(array []int) []int {
 
-	for i:=0; i < len(array); i++{
+	for i := 0; i < len(array); i++ {
 		minElement := i
 
-		for j:=0; j < len(array); j++{
-			if array[j] > array[minElement]{
+		for j := 0; j < len(array); j++ {
+			if array[j] > array[minElement] {
 				minElement = j
 			}
 		}
 
-		if minElement != i{
+		if minElement != i {
 			array[i], array[minElement] = array[minElement], array[i]
 		}
 	}
@@ -27,7 +27,7 @@ func main(){
 	fmt.Println("Original Array: ")
 	fmt.Println(array)
 	sortedArray := selectionSort(array)
-	
+
 	fmt.Println("Sorted Array: ")
 	fmt.Println(sortedArray)
 }
