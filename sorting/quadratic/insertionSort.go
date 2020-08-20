@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // sorts data array using insertion sort n ascending order 
-func insertionSortAcending(array [10]int) []int {
+func insertionSortAcending(array [10]int) [10]int {
 	var i int = 0 // counter 
 	for i < len(array){
 		j := i
@@ -17,7 +17,7 @@ func insertionSortAcending(array [10]int) []int {
 		i++
 	}
 
-	return array[:10]
+	return array
 }
 
 func insertionSortDescending(array [10]int) []int {
