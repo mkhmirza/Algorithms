@@ -17,10 +17,8 @@ func selectionSort(array []int) []int{
 			array[i], array[minElement] = array[minElement], array[i]
 		}
 	}
-	return array[:len(array)]
+	return array
 }
-
-
 
 func main(){
 	fmt.Println("Program demostration for working of selection sort")
