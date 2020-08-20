@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func selectionSort(array []int) []int{
 
@@ -20,6 +20,7 @@ func selectionSort(array []int) []int{
 	return array
 }
 
+/*
 func main(){
 	fmt.Println("Program demostration for working of selection sort")
 	array := []int {64, 11, 22, 25, 64, 12}
@@ -30,3 +31,4 @@ func main(){
 	fmt.Println("Sorted Array: ")
 	fmt.Println(sortedArray)
 }
+*/
