@@ -14,6 +14,7 @@ Implementation of different Data Structures and Algorithms using different progr
 4. graph
    - bfs-dfs
      - undirected 
+     - directed 
 5. matrix-multiplication
    - naive-method
 
